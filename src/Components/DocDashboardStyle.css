@@ -1,0 +1,54 @@
+.doctor-dashboard {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .doctor-dashboard h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color:white;
+  }
+  
+  .patient-lists {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .patient-lists div {
+    width: 45%;
+  }
+  
+  .patient-lists h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color:white;
+  }
+  
+  .patient-lists ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .patient-lists li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .patient-lists li img {
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .patient-lists li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  

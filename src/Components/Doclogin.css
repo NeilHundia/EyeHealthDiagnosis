@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    background-image: url("https://media.licdn.com/dms/image/D4E12AQFsVhAtbqn5Mw/article-cover_image-shrink_720_1280/0/1691482928936?e=2147483647&v=beta&t=Y6G4yU4jC9O2CZvIEQRJBabo2tmcezdeaR6cYpbSD0A");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.form{
+    height:400px;
+    width: 400px;
+    padding: 20px;
+    justify-content: center;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin:10%;
+}
+.title{
+    display: inline-block;
+    font-size: 30px;
+}
+label{
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+input{
+    display: flex;
+    width: 100%;
+    margin : 10px 0px 10px 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+    box-sizing: border-box;
+}
+
+.button{
+    width: 100%;
+    background-color: #00499c;
+    color: white;
+    padding:10px;
+    margin: 10px 0px 10px 0px;
+    box-sizing: border-box;
+    border:none
+    
+}
+
+/* button:hover{
+    background-color: #003470;
+    cursor: pointer;
+} */
+
+a{
+    color:black;
+    margin-top: 20px;
+}

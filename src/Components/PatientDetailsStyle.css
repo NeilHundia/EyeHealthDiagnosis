@@ -1,0 +1,63 @@
+.patient-details {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.patient-details h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.patient-details img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.cropped-eyes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.croppedimg {
+  width: 100px;
+  height: 100px;
+}
+
+.diagnosis {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.diagnosis h2 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.diagnosis textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.diagnosis button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.croppedimg {
+  height: 200px;
+  width: 200px;
+}
+
+.patient-details h2, p{
+  color:white;
+  
+}
+

@@ -1,0 +1,25 @@
+.navmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding:10px 20px;
+    text-align: right;
+    width: 1670px;
+    height:50px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navmain a{
+    color: white;
+    margin-left:30px;
+    text-decoration: none;
+}
+.navmain a:hover {
+    text-decoration: underline;
+  }
+

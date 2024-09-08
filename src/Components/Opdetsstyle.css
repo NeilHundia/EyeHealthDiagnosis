@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.main{
+    height:750px;
+    width:500px;
+    background-color: rgb(255, 255, 255);
+    border:5px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px black   ;
+    border-collapse: collapse;
+    margin:3% 0 0 10%;
+    padding:20px;
+}
+
+input, select, option, textarea{
+    width:90%;
+    padding:10px;
+    margin:10px;
+    border-radius: 8px;
+}
+input[type="radio"], input[type="checkbox"]{
+    display: inline;
+    width:5%;
+}
+input[type="submit"], input[type="reset"]{
+    width:100%;
+    color: white;
+    background-color: rgb(35, 35, 112);
+    border: none;
+    text-align: center  ;
+}
+
+.imgmain{
+    height:700px;
+    width:700px;
+    background-color: white;
+    padding: 20px;
+    margin:3% 0 0 5%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.imgbtn{
+    width: 40%;
+  background-color: #00499c;
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  border: none;
+  display: inline-block;
+}
+.imgbtn:hover{
+    background-color: #003169;
+    cursor: pointer;
+}
